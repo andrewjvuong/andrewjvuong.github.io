@@ -5,7 +5,6 @@ function onClick(element) {
     captionText.innerHTML = element.alt;
   }
   
-  // Change style of navbar on scroll
   window.onscroll = function() {myFunction()};
   function myFunction() {
       var navbar = document.getElementById("myNavbar");
@@ -16,7 +15,6 @@ function onClick(element) {
       }
   }
   
-  // Used to toggle the menu on small screens when clicking on the menu button
   function toggleFunction() {
       var x = document.getElementById("navDemo");
       if (x.className.indexOf("w3-show") == -1) {
